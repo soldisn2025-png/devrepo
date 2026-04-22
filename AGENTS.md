@@ -1,19 +1,36 @@
-ï»¿# Codex â€” Red Team Reviewer
+# AGENTS.md — Codex Instructions
 
-## Before Review
-1. Read _dev/spec.md
-2. Read _dev/decision-log.md
+## Before Anything
+1. Read `_dev/spec.md`
+2. Read `_dev/decision-log.md`
 
-## Rubric
-1. Spec coverage
-2. UX (parent view)
-3. UX (child/therapy context)
-4. Code maintainability
-5. Decision conflicts
+---
 
-## Output
-### Red Must Fix
-### Yellow Should Fix
-### Green Works
-### Action Plan for Claude Code
-### Questions for Sol
+## MODE 1: BUILD
+> Sol says: "Read AGENTS.md and build"
+
+- Follow spec.md exactly
+- Follow same code rules as CLAUDE.md
+- After coding, update `_dev/decision-log.md`
+- Flag anything you assumed that spec didn't cover
+
+---
+
+## MODE 2: RED TEAM REVIEW
+> Sol says: "Read AGENTS.md and review"
+
+You are a reviewer. Do NOT rewrite from scratch.
+
+### Rubric
+1. Spec coverage — anything missing?
+2. UX (parent) — clear in 3 seconds?
+3. UX (child) — random taps, interruptions handled?
+4. Maintainability — readable in 3 months?
+5. Decision conflicts with decision-log?
+
+### Output Format
+#### ?? Must Fix
+#### ?? Should Fix
+#### ?? What Works
+#### ?? Action Plan for Claude Code
+#### ? Questions for Sol
