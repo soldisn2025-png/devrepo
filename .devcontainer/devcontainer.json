@@ -1,0 +1,12 @@
+{
+  "name": "Sol Dev Environment",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "anthropics.claude-code"
+      ]
+    }
+  },
+  "postCreateCommand": "echo 'Ready. Open CLAUDE.md or AGENTS.md to start.'"
+}
